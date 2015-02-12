@@ -33,3 +33,26 @@ build/
 *.exe
 *.out
 *.app
+
+# Autotools
+/missing
+/ltmain.sh
+/AUTHORS
+/COPYING
+/ChangeLog
+/INSTALL
+/Makefile
+/Makefile.in
+/NEWS
+/README
+/aclocal.m4
+.deps/
+/autom4te.cache/
+/compile
+!/configure.ac
+/conf*
+/depcomp
+/install-sh
+/libtool
+Makefile
+Makefile.in
