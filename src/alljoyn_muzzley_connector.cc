@@ -17,17 +17,17 @@
 
 //Alljoyn Lighting SDK
 
-#include <ControllerClient.h>
-#include <LampManager.h>
-#include <LampGroupManager.h>
-#include <PresetManager.h>
-#include <SceneManager.h>
-#include <MasterSceneManager.h>
-#include <ControllerServiceManager.h>
-#include <qcc/StringUtil.h>
+#include <alljoyn/lighting/ControllerClient.h>
+#include <alljoyn/lighting/client/LampManager.h>
+#include <alljoyn/lighting/client/LampGroupManager.h>
+#include <alljoyn/lighting/client/PresetManager.h>
+#include <alljoyn/lighting/client/SceneManager.h>
+#include <alljoyn/lighting/client/MasterSceneManager.h>
+#include <alljoyn/lighting/ControllerServiceManager.h>
 #include <alljoyn/BusAttachment.h>
 #include <alljoyn/ProxyBusObject.h>
 #include <qcc/Debug.h>
+#include <qcc/StringUtil.h>
 
 //GUPnP
 #include <libgupnp/gupnp.h>
